@@ -339,7 +339,7 @@ li{
 
 .about-desc{
     /* background-color: aquamarine; */
-    max-width: min(900px, 100%);
+    max-width: 57rem;
     overflow-wrap: break-word;
     text-align: left;
     /* transform: translate(10rem, -25rem); */
@@ -391,9 +391,6 @@ li{
     font-size: clamp(1.5vw,1.5vw,1.5vw);
     font-family: "Poppins";
     color: white;
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 10%;
 }
 
 .email-logo{
@@ -416,7 +413,4 @@ li{
     font-size: clamp(1.5vw,1.5vw,1.5vw);
     font-family: "Poppins";
     color: white;
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 10%;
 }
