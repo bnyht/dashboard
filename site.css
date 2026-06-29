@@ -1,6 +1,7 @@
 @font-face {font-family: "Poppins Black"; src: url(font/Poppins-Black.ttf);}
 @font-face {font-family: "Poppins"; src: url(font/Poppins-Regular.ttf);}
 @font-face {font-family: "Poppins Bold Italic"; src: url(font/Poppins-BoldItalic.ttf);}
+@font-face {font-family: "Poppins ExtraLight"; src: url(font/Poppins-ExtraLight.ttf);}
 
 @keyframes fadein{
     0%{opacity: 0;}
@@ -42,6 +43,7 @@
 
 .typed-cursor{
     /* display: none; */
+    font-family: "Poppins ExtraLight";
 }
 
 html{
